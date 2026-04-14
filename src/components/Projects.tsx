@@ -4,35 +4,35 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Резиденция Светлая",
-    category: "Жилой дом",
-    location: "Москва, Россия",
+    title: "Кухня из белого мрамора",
+    category: "Столешница Каррара",
+    location: "Москва, частный дом",
     year: "2024",
-    image: "/images/hously-1.png",
+    image: "https://cdn.poehali.dev/projects/3d7cecf0-483c-4c65-8fe3-f3e297670ebc/files/14af6b3b-af1a-4fec-9283-c7029b6891dd.jpg",
   },
   {
     id: 2,
-    title: "Павильон Стекло",
-    category: "Коммерческий объект",
-    location: "Санкт-Петербург, Россия",
-    year: "2023",
-    image: "/images/hously-2.png",
+    title: "SPA-ванная в травертине",
+    category: "Облицовка стен и пола",
+    location: "Москва, апартаменты",
+    year: "2024",
+    image: "https://cdn.poehali.dev/projects/3d7cecf0-483c-4c65-8fe3-f3e297670ebc/files/958bd941-bb94-48c6-bd26-a742633a2b02.jpg",
   },
   {
     id: 3,
-    title: "Дом у моря",
-    category: "Жилой дом",
-    location: "Сочи, Россия",
+    title: "Каминный портал из гранита",
+    category: "Каминный декор",
+    location: "Подмосковье, коттедж",
     year: "2023",
-    image: "/images/hously-3.png",
+    image: "https://cdn.poehali.dev/projects/3d7cecf0-483c-4c65-8fe3-f3e297670ebc/files/4ad49269-280c-467b-a8b6-5b894ce0c819.jpg",
   },
   {
     id: 4,
-    title: "Северный приют",
-    category: "Гостиничный комплекс",
-    location: "Казань, Россия",
-    year: "2024",
-    image: "/images/hously-4.png",
+    title: "Акцентная стена из оникса",
+    category: "Декоративная облицовка",
+    location: "Санкт-Петербург, пентхаус",
+    year: "2023",
+    image: "https://cdn.poehali.dev/projects/3d7cecf0-483c-4c65-8fe3-f3e297670ebc/files/8fd940d1-7fb7-4531-9d5c-2ec6e0ced169.jpg",
   },
 ]
 
@@ -69,7 +69,7 @@ export function Projects() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
             <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши проекты</h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Реализованные проекты</h2>
           </div>
           <a
             href="#"
