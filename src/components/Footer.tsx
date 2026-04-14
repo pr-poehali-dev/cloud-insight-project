@@ -45,13 +45,13 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:info@stone-studio.ru" className="hover:text-foreground transition-colors">
-                  info@stone-studio.ru
+                <a href="mailto:yarankin63@gmail.com" className="hover:text-foreground transition-colors">
+                  yarankin63@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+74951234567" className="hover:text-foreground transition-colors">
-                  +7 (495) 123-45-67
+                <a href="tel:+79276118361" className="hover:text-foreground transition-colors">
+                  +7 (927) 611-83-61
                 </a>
               </li>
               <li>
